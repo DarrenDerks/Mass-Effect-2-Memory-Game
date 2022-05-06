@@ -45,16 +45,6 @@ body {
 	margin-bottom: 100px;
 }
 
-.noSelect {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	-webkit-tap-highlight-color: transparent;
-}
-
 .button {
 	cursor: pointer;
 	overflow: hidden;
@@ -78,59 +68,4 @@ body {
 .content a {
 	color: white;
 	text-decoration: none;
-}
-
-@media screen and (max-width: 1024px) {
-}
-@media screen and (max-width: 768px) {
-	.video-container .content {
-		width: 80vw;
-	}
-	.button {
-		width: 150px;
-	}
-	#game {
-		height: 400px;
-		width: 300px;
-	}
-	.info-game {
-		width: 300px;
-	}
-
-	.card {
-		height: 60px;
-		width: 60px;
-	}
-	.info-game button {
-		width: 35%;
-	}
-}
-@media screen and (max-width: 480px) {
-}
-@media screen and (max-width: 320px) {
-	#game {
-		height: 380px;
-		width: 280px;
-	}
-	.info-game {
-		width: 280px;
-	}
-
-	.card {
-		height: 50px;
-		width: 50px;
-	}
-}
-
-.rotate {
-	animation: rotation 4s infinite linear;
-}
-
-@keyframes rotation {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(359deg);
-	}
 }
