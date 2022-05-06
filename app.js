@@ -130,7 +130,7 @@ const reset = (text) => {
   });
   playerLives = 35;
   playerLivesCounter.textContent = playerLives;
-  setTimeout(() => window.alert(text), 100);
+  setTimeout(() => window.swal(text), 100);
 };
 
 cardMaker();
